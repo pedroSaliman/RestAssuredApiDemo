@@ -1,0 +1,374 @@
+<html>
+<head>
+<title>TestNG:  test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>59/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Apr 03 12:45:08 EET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>14 seconds (14449 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Crud.Get.checklincode()'><b>checklincode</b><br>Test class: Crud.Get</td>
+<td></td>
+<td>0</td>
+<td>Crud.Get@5fd4f8f5</td></tr>
+<tr>
+<td title='Crud.GetSingleUser.checkbody()'><b>checkbody</b><br>Test class: Crud.GetSingleUser</td>
+<td></td>
+<td>0</td>
+<td>Crud.GetSingleUser@272ed83b</td></tr>
+<tr>
+<td title='Crud.SingleUserNotFound.checklincode()'><b>checklincode</b><br>Test class: Crud.SingleUserNotFound</td>
+<td></td>
+<td>0</td>
+<td>Crud.SingleUserNotFound@41fecb8b</td></tr>
+<tr>
+<td title='Crud.GetSingleUser.checkstatuscode()'><b>checkstatuscode</b><br>Test class: Crud.GetSingleUser</td>
+<td></td>
+<td>0</td>
+<td>Crud.GetSingleUser@272ed83b</td></tr>
+<tr>
+<td title='Crud.LoginPost.checkstatuscode()'><b>checkstatuscode</b><br>Test class: Crud.LoginPost</td>
+<td></td>
+<td>0</td>
+<td>Crud.LoginPost@66498326</td></tr>
+<tr>
+<td title='Crud.Post.post()'><b>post</b><br>Test class: Crud.Post<br>Parameters: medo, tester</td>
+<td></td>
+<td>0</td>
+<td>Crud.Post@a3d8174</td></tr>
+<tr>
+<td title='Crud.RegisterPost.contenttype()'><b>contenttype</b><br>Test class: Crud.RegisterPost</td>
+<td></td>
+<td>0</td>
+<td>Crud.RegisterPost@51dcb805</td></tr>
+<tr>
+<td title='Crud.GetDelay.contenttype()'><b>contenttype</b><br>Test class: Crud.GetDelay</td>
+<td></td>
+<td>0</td>
+<td>Crud.GetDelay@1e6454ec</td></tr>
+<tr>
+<td title='Crud.SingleResources.checkbody()'><b>checkbody</b><br>Test class: Crud.SingleResources</td>
+<td></td>
+<td>0</td>
+<td>Crud.SingleResources@120f102b</td></tr>
+<tr>
+<td title='Crud.Put.checkbody()'><b>checkbody</b><br>Test class: Crud.Put</td>
+<td></td>
+<td>0</td>
+<td>Crud.Put@732c2a62</td></tr>
+<tr>
+<td title='Crud.SinglResourcesNotFound.checkstatuscode()'><b>checkstatuscode</b><br>Test class: Crud.SinglResourcesNotFound</td>
+<td></td>
+<td>0</td>
+<td>Crud.SinglResourcesNotFound@2accdbb5</td></tr>
+<tr>
+<td title='Crud.SinglResourcesNotFound.contenttype()'><b>contenttype</b><br>Test class: Crud.SinglResourcesNotFound</td>
+<td></td>
+<td>0</td>
+<td>Crud.SinglResourcesNotFound@2accdbb5</td></tr>
+<tr>
+<td title='Crud.UnLogin.checkstatuscode()'><b>checkstatuscode</b><br>Test class: Crud.UnLogin</td>
+<td></td>
+<td>0</td>
+<td>Crud.UnLogin@cad498c</td></tr>
+<tr>
+<td title='Crud.Put.contenttype()'><b>contenttype</b><br>Test class: Crud.Put</td>
+<td></td>
+<td>0</td>
+<td>Crud.Put@732c2a62</td></tr>
+<tr>
+<td title='Crud.GetDelay.checkbody()'><b>checkbody</b><br>Test class: Crud.GetDelay</td>
+<td></td>
+<td>0</td>
+<td>Crud.GetDelay@1e6454ec</td></tr>
+<tr>
+<td title='Crud.Listusers.checklincode()'><b>checklincode</b><br>Test class: Crud.Listusers</td>
+<td></td>
+<td>0</td>
+<td>Crud.Listusers@625732</td></tr>
+<tr>
+<td title='Crud.Listusers.checkbody()'><b>checkbody</b><br>Test class: Crud.Listusers</td>
+<td></td>
+<td>0</td>
+<td>Crud.Listusers@625732</td></tr>
+<tr>
+<td title='Crud.Post.checkstatuscode()'><b>checkstatuscode</b><br>Test class: Crud.Post</td>
+<td></td>
+<td>0</td>
+<td>Crud.Post@a3d8174</td></tr>
+<tr>
+<td title='Crud.Delete.checkstatuscode()'><b>checkstatuscode</b><br>Test class: Crud.Delete</td>
+<td></td>
+<td>0</td>
+<td>Crud.Delete@1ba9117e</td></tr>
+<tr>
+<td title='Crud.Post.post()'><b>post</b><br>Test class: Crud.Post<br>Parameters: walled, developer</td>
+<td></td>
+<td>0</td>
+<td>Crud.Post@a3d8174</td></tr>
+<tr>
+<td title='Crud.UnLogin.post()'><b>post</b><br>Test class: Crud.UnLogin<br>Parameters: peter@klaven, 123456789</td>
+<td></td>
+<td>0</td>
+<td>Crud.UnLogin@cad498c</td></tr>
+<tr>
+<td title='Crud.RegisterPost.checkbody()'><b>checkbody</b><br>Test class: Crud.RegisterPost</td>
+<td></td>
+<td>0</td>
+<td>Crud.RegisterPost@51dcb805</td></tr>
+<tr>
+<td title='Crud.UnLogin.post()'><b>post</b><br>Test class: Crud.UnLogin<br>Parameters: peter@klaven, 123456789</td>
+<td></td>
+<td>0</td>
+<td>Crud.UnLogin@cad498c</td></tr>
+<tr>
+<td title='Crud.UnLogin.post()'><b>post</b><br>Test class: Crud.UnLogin<br>Parameters: peter@klaven, police</td>
+<td></td>
+<td>0</td>
+<td>Crud.UnLogin@cad498c</td></tr>
+<tr>
+<td title='Crud.UnLogin.checklincode()'><b>checklincode</b><br>Test class: Crud.UnLogin</td>
+<td></td>
+<td>0</td>
+<td>Crud.UnLogin@cad498c</td></tr>
+<tr>
+<td title='Crud.UnLogin.contenttype()'><b>contenttype</b><br>Test class: Crud.UnLogin</td>
+<td></td>
+<td>0</td>
+<td>Crud.UnLogin@cad498c</td></tr>
+<tr>
+<td title='Crud.Get.contenttype()'><b>contenttype</b><br>Test class: Crud.Get</td>
+<td></td>
+<td>0</td>
+<td>Crud.Get@5fd4f8f5</td></tr>
+<tr>
+<td title='Crud.Delete.contenttype()'><b>contenttype</b><br>Test class: Crud.Delete</td>
+<td></td>
+<td>0</td>
+<td>Crud.Delete@1ba9117e</td></tr>
+<tr>
+<td title='Crud.RegisterPost.post()'><b>post</b><br>Test class: Crud.RegisterPost<br>Parameters: eve.holt@reqres.in, pistol</td>
+<td></td>
+<td>0</td>
+<td>Crud.RegisterPost@51dcb805</td></tr>
+<tr>
+<td title='Crud.GetDelay.checkstatuscode()'><b>checkstatuscode</b><br>Test class: Crud.GetDelay</td>
+<td></td>
+<td>0</td>
+<td>Crud.GetDelay@1e6454ec</td></tr>
+<tr>
+<td title='Crud.Listusers.checkstatuscode()'><b>checkstatuscode</b><br>Test class: Crud.Listusers</td>
+<td></td>
+<td>0</td>
+<td>Crud.Listusers@625732</td></tr>
+<tr>
+<td title='Crud.Get.checkbody()'><b>checkbody</b><br>Test class: Crud.Get</td>
+<td></td>
+<td>0</td>
+<td>Crud.Get@5fd4f8f5</td></tr>
+<tr>
+<td title='Crud.SingleUserNotFound.contenttype()'><b>contenttype</b><br>Test class: Crud.SingleUserNotFound</td>
+<td></td>
+<td>0</td>
+<td>Crud.SingleUserNotFound@41fecb8b</td></tr>
+<tr>
+<td title='Crud.LoginPost.post()'><b>post</b><br>Test class: Crud.LoginPost<br>Parameters: eve.holt@reqres.in, cityslicka</td>
+<td></td>
+<td>0</td>
+<td>Crud.LoginPost@66498326</td></tr>
+<tr>
+<td title='Crud.GetDelay.checklincode()'><b>checklincode</b><br>Test class: Crud.GetDelay</td>
+<td></td>
+<td>0</td>
+<td>Crud.GetDelay@1e6454ec</td></tr>
+<tr>
+<td title='Crud.Post.post()'><b>post</b><br>Test class: Crud.Post<br>Parameters: mahaa, nurse</td>
+<td></td>
+<td>0</td>
+<td>Crud.Post@a3d8174</td></tr>
+<tr>
+<td title='Crud.SinglResourcesNotFound.checklincode()'><b>checklincode</b><br>Test class: Crud.SinglResourcesNotFound</td>
+<td></td>
+<td>0</td>
+<td>Crud.SinglResourcesNotFound@2accdbb5</td></tr>
+<tr>
+<td title='Crud.SingleUserNotFound.checkstatuscode()'><b>checkstatuscode</b><br>Test class: Crud.SingleUserNotFound</td>
+<td></td>
+<td>0</td>
+<td>Crud.SingleUserNotFound@41fecb8b</td></tr>
+<tr>
+<td title='Crud.Listusers.contenttype()'><b>contenttype</b><br>Test class: Crud.Listusers</td>
+<td></td>
+<td>0</td>
+<td>Crud.Listusers@625732</td></tr>
+<tr>
+<td title='Crud.Post.contenttype()'><b>contenttype</b><br>Test class: Crud.Post</td>
+<td></td>
+<td>0</td>
+<td>Crud.Post@a3d8174</td></tr>
+<tr>
+<td title='Crud.RegisterPost.post()'><b>post</b><br>Test class: Crud.RegisterPost<br>Parameters: eve.holt@reqres.in, pistol</td>
+<td></td>
+<td>0</td>
+<td>Crud.RegisterPost@51dcb805</td></tr>
+<tr>
+<td title='Crud.GetSingleUser.contenttype()'><b>contenttype</b><br>Test class: Crud.GetSingleUser</td>
+<td></td>
+<td>0</td>
+<td>Crud.GetSingleUser@272ed83b</td></tr>
+<tr>
+<td title='Crud.SingleResources.checklincode()'><b>checklincode</b><br>Test class: Crud.SingleResources</td>
+<td></td>
+<td>0</td>
+<td>Crud.SingleResources@120f102b</td></tr>
+<tr>
+<td title='Crud.LoginPost.contenttype()'><b>contenttype</b><br>Test class: Crud.LoginPost</td>
+<td></td>
+<td>0</td>
+<td>Crud.LoginPost@66498326</td></tr>
+<tr>
+<td title='Crud.Put.checkstatuscode()'><b>checkstatuscode</b><br>Test class: Crud.Put</td>
+<td></td>
+<td>0</td>
+<td>Crud.Put@732c2a62</td></tr>
+<tr>
+<td title='Crud.SingleResources.checkstatuscode()'><b>checkstatuscode</b><br>Test class: Crud.SingleResources</td>
+<td></td>
+<td>0</td>
+<td>Crud.SingleResources@120f102b</td></tr>
+<tr>
+<td title='Crud.Get.checkstatuscode()'><b>checkstatuscode</b><br>Test class: Crud.Get</td>
+<td></td>
+<td>0</td>
+<td>Crud.Get@5fd4f8f5</td></tr>
+<tr>
+<td title='Crud.LoginPost.checklincode()'><b>checklincode</b><br>Test class: Crud.LoginPost</td>
+<td></td>
+<td>0</td>
+<td>Crud.LoginPost@66498326</td></tr>
+<tr>
+<td title='Crud.UnLogin.checkbody()'><b>checkbody</b><br>Test class: Crud.UnLogin</td>
+<td></td>
+<td>0</td>
+<td>Crud.UnLogin@cad498c</td></tr>
+<tr>
+<td title='Crud.RegisterPost.post()'><b>post</b><br>Test class: Crud.RegisterPost<br>Parameters: eve.holt@reqres.in, pistol</td>
+<td></td>
+<td>0</td>
+<td>Crud.RegisterPost@51dcb805</td></tr>
+<tr>
+<td title='Crud.Post.checkbody()'><b>checkbody</b><br>Test class: Crud.Post</td>
+<td></td>
+<td>0</td>
+<td>Crud.Post@a3d8174</td></tr>
+<tr>
+<td title='Crud.GetSingleUser.checklincode()'><b>checklincode</b><br>Test class: Crud.GetSingleUser</td>
+<td></td>
+<td>0</td>
+<td>Crud.GetSingleUser@272ed83b</td></tr>
+<tr>
+<td title='Crud.Post.checklincode()'><b>checklincode</b><br>Test class: Crud.Post</td>
+<td></td>
+<td>0</td>
+<td>Crud.Post@a3d8174</td></tr>
+<tr>
+<td title='Crud.LoginPost.post()'><b>post</b><br>Test class: Crud.LoginPost<br>Parameters: eve.holt@reqres.in, cityslicka</td>
+<td></td>
+<td>0</td>
+<td>Crud.LoginPost@66498326</td></tr>
+<tr>
+<td title='Crud.RegisterPost.checklincode()'><b>checklincode</b><br>Test class: Crud.RegisterPost</td>
+<td></td>
+<td>0</td>
+<td>Crud.RegisterPost@51dcb805</td></tr>
+<tr>
+<td title='Crud.LoginPost.post()'><b>post</b><br>Test class: Crud.LoginPost<br>Parameters: eve.holt@reqres.in, cityslicka</td>
+<td></td>
+<td>0</td>
+<td>Crud.LoginPost@66498326</td></tr>
+<tr>
+<td title='Crud.LoginPost.checkbody()'><b>checkbody</b><br>Test class: Crud.LoginPost</td>
+<td></td>
+<td>0</td>
+<td>Crud.LoginPost@66498326</td></tr>
+<tr>
+<td title='Crud.RegisterPost.checkstatuscode()'><b>checkstatuscode</b><br>Test class: Crud.RegisterPost</td>
+<td></td>
+<td>0</td>
+<td>Crud.RegisterPost@51dcb805</td></tr>
+<tr>
+<td title='Crud.SingleResources.contenttype()'><b>contenttype</b><br>Test class: Crud.SingleResources</td>
+<td></td>
+<td>0</td>
+<td>Crud.SingleResources@120f102b</td></tr>
+</table><p>
+</body>
+</html>

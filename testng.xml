@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="api">
+
+    <test name="test">
+        <classes>
+            <class name="Crud.Get"></class>
+            <class name="Crud.Post"></class>
+            <class name="Crud.Delete"></class>
+            <class name="Crud.Put"></class>
+            <class name="Crud.GetSingleUser"></class>
+            <class name="Crud.SingleUserNotFound"></class>
+            <class name="Crud.SingleResources"></class>
+            <class name="Crud.Listusers"></class>
+            <class name="Crud.RegisterPost"></class>
+            <class name="Crud.LoginPost"></class>
+            <class name="Crud.UnLogin"></class>
+            <class name="Crud.GetDelay"></class>
+            <class name="Crud.SinglResourcesNotFound"></class>
+
+        </classes>
+    </test>
+</suite>

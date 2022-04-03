@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="59" passed="59" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-03T12:45:08 EET" name="api" finished-at="2022-04-03T12:45:23 EET" duration-ms="14449">
+    <groups>
+    </groups>
+    <test started-at="2022-04-03T12:45:08 EET" name="test" finished-at="2022-04-03T12:45:23 EET" duration-ms="14449">
+      <class name="Crud.UnLogin">
+        <test-method is-config="true" signature="befreclass()[pri:0, instance:Crud.UnLogin@cad498c]" started-at="2022-04-03T12:45:18 EET" name="befreclass" finished-at="2022-04-03T12:45:18 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befreclass -->
+        <test-method signature="post(java.lang.String,java.lang.String)[pri:0, instance:Crud.UnLogin@cad498c]" started-at="2022-04-03T12:45:18 EET" name="post" data-provider="data" finished-at="2022-04-03T12:45:18 EET" duration-ms="377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@klaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String,java.lang.String)[pri:0, instance:Crud.UnLogin@cad498c]" started-at="2022-04-03T12:45:18 EET" name="post" data-provider="data" finished-at="2022-04-03T12:45:19 EET" duration-ms="437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@klaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String,java.lang.String)[pri:0, instance:Crud.UnLogin@cad498c]" started-at="2022-04-03T12:45:19 EET" name="post" data-provider="data" finished-at="2022-04-03T12:45:19 EET" duration-ms="399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@klaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[police]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="checkstatuscode()[pri:0, instance:Crud.UnLogin@cad498c]" started-at="2022-04-03T12:45:19 EET" name="checkstatuscode" finished-at="2022-04-03T12:45:19 EET" depends-on-methods="Crud.UnLogin.post" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="checkbody()[pri:0, instance:Crud.UnLogin@cad498c]" started-at="2022-04-03T12:45:19 EET" name="checkbody" finished-at="2022-04-03T12:45:19 EET" depends-on-methods="Crud.UnLogin.checkstatuscode" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbody -->
+        <test-method signature="contenttype()[pri:0, instance:Crud.UnLogin@cad498c]" started-at="2022-04-03T12:45:19 EET" name="contenttype" finished-at="2022-04-03T12:45:19 EET" depends-on-methods="Crud.UnLogin.checkbody" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttype -->
+        <test-method signature="checklincode()[pri:0, instance:Crud.UnLogin@cad498c]" started-at="2022-04-03T12:45:19 EET" name="checklincode" finished-at="2022-04-03T12:45:19 EET" depends-on-methods="Crud.UnLogin.contenttype" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklincode -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Crud.UnLogin@cad498c]" started-at="2022-04-03T12:45:19 EET" name="after" finished-at="2022-04-03T12:45:19 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Crud.UnLogin -->
+      <class name="Crud.SingleResources">
+        <test-method is-config="true" signature="befreclass()[pri:0, instance:Crud.SingleResources@120f102b]" started-at="2022-04-03T12:45:14 EET" name="befreclass" finished-at="2022-04-03T12:45:14 EET" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befreclass -->
+        <test-method signature="checkstatuscode()[pri:1, instance:Crud.SingleResources@120f102b]" started-at="2022-04-03T12:45:14 EET" name="checkstatuscode" finished-at="2022-04-03T12:45:14 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="checkbody()[pri:2, instance:Crud.SingleResources@120f102b]" started-at="2022-04-03T12:45:15 EET" name="checkbody" finished-at="2022-04-03T12:45:15 EET" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbody -->
+        <test-method signature="contenttype()[pri:3, instance:Crud.SingleResources@120f102b]" started-at="2022-04-03T12:45:15 EET" name="contenttype" finished-at="2022-04-03T12:45:15 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttype -->
+        <test-method signature="checklincode()[pri:4, instance:Crud.SingleResources@120f102b]" started-at="2022-04-03T12:45:15 EET" name="checklincode" finished-at="2022-04-03T12:45:15 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklincode -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Crud.SingleResources@120f102b]" started-at="2022-04-03T12:45:15 EET" name="after" finished-at="2022-04-03T12:45:15 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Crud.SingleResources -->
+      <class name="Crud.SingleUserNotFound">
+        <test-method is-config="true" signature="befreclass()[pri:0, instance:Crud.SingleUserNotFound@41fecb8b]" started-at="2022-04-03T12:45:14 EET" name="befreclass" finished-at="2022-04-03T12:45:14 EET" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befreclass -->
+        <test-method signature="checkstatuscode()[pri:1, instance:Crud.SingleUserNotFound@41fecb8b]" started-at="2022-04-03T12:45:14 EET" name="checkstatuscode" finished-at="2022-04-03T12:45:14 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="contenttype()[pri:2, instance:Crud.SingleUserNotFound@41fecb8b]" started-at="2022-04-03T12:45:14 EET" name="contenttype" finished-at="2022-04-03T12:45:14 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttype -->
+        <test-method signature="checklincode()[pri:3, instance:Crud.SingleUserNotFound@41fecb8b]" started-at="2022-04-03T12:45:14 EET" name="checklincode" finished-at="2022-04-03T12:45:14 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklincode -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Crud.SingleUserNotFound@41fecb8b]" started-at="2022-04-03T12:45:14 EET" name="after" finished-at="2022-04-03T12:45:14 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Crud.SingleUserNotFound -->
+      <class name="Crud.LoginPost">
+        <test-method is-config="true" signature="befreclass()[pri:0, instance:Crud.LoginPost@66498326]" started-at="2022-04-03T12:45:16 EET" name="befreclass" finished-at="2022-04-03T12:45:16 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befreclass -->
+        <test-method signature="post(java.lang.String,java.lang.String)[pri:0, instance:Crud.LoginPost@66498326]" started-at="2022-04-03T12:45:16 EET" name="post" data-provider="data" finished-at="2022-04-03T12:45:17 EET" duration-ms="368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String,java.lang.String)[pri:0, instance:Crud.LoginPost@66498326]" started-at="2022-04-03T12:45:17 EET" name="post" data-provider="data" finished-at="2022-04-03T12:45:17 EET" duration-ms="364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String,java.lang.String)[pri:0, instance:Crud.LoginPost@66498326]" started-at="2022-04-03T12:45:17 EET" name="post" data-provider="data" finished-at="2022-04-03T12:45:18 EET" duration-ms="722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="checkstatuscode()[pri:0, instance:Crud.LoginPost@66498326]" started-at="2022-04-03T12:45:18 EET" name="checkstatuscode" finished-at="2022-04-03T12:45:18 EET" depends-on-methods="Crud.LoginPost.post" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="checkbody()[pri:0, instance:Crud.LoginPost@66498326]" started-at="2022-04-03T12:45:18 EET" name="checkbody" finished-at="2022-04-03T12:45:18 EET" depends-on-methods="Crud.LoginPost.checkstatuscode" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbody -->
+        <test-method signature="contenttype()[pri:0, instance:Crud.LoginPost@66498326]" started-at="2022-04-03T12:45:18 EET" name="contenttype" finished-at="2022-04-03T12:45:18 EET" depends-on-methods="Crud.LoginPost.checkbody" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttype -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Crud.LoginPost@66498326]" started-at="2022-04-03T12:45:18 EET" name="after" finished-at="2022-04-03T12:45:18 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method signature="checklincode()[pri:0, instance:Crud.LoginPost@66498326]" started-at="2022-04-03T12:45:18 EET" name="checklincode" finished-at="2022-04-03T12:45:18 EET" depends-on-methods="Crud.LoginPost.contenttype" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklincode -->
+      </class> <!-- Crud.LoginPost -->
+      <class name="Crud.Post">
+        <test-method is-config="true" signature="befreclass()[pri:0, instance:Crud.Post@a3d8174]" started-at="2022-04-03T12:45:11 EET" name="befreclass" finished-at="2022-04-03T12:45:11 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befreclass -->
+        <test-method signature="post(java.lang.String,java.lang.String)[pri:0, instance:Crud.Post@a3d8174]" started-at="2022-04-03T12:45:11 EET" name="post" data-provider="data" finished-at="2022-04-03T12:45:11 EET" duration-ms="351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[medo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String,java.lang.String)[pri:0, instance:Crud.Post@a3d8174]" started-at="2022-04-03T12:45:11 EET" name="post" data-provider="data" finished-at="2022-04-03T12:45:12 EET" duration-ms="339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[walled]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[developer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String,java.lang.String)[pri:0, instance:Crud.Post@a3d8174]" started-at="2022-04-03T12:45:12 EET" name="post" data-provider="data" finished-at="2022-04-03T12:45:12 EET" duration-ms="356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nurse]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="checkstatuscode()[pri:0, instance:Crud.Post@a3d8174]" started-at="2022-04-03T12:45:12 EET" name="checkstatuscode" finished-at="2022-04-03T12:45:12 EET" depends-on-methods="Crud.Post.post" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="checkbody()[pri:0, instance:Crud.Post@a3d8174]" started-at="2022-04-03T12:45:12 EET" name="checkbody" finished-at="2022-04-03T12:45:12 EET" depends-on-methods="Crud.Post.checkstatuscode" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbody -->
+        <test-method signature="contenttype()[pri:0, instance:Crud.Post@a3d8174]" started-at="2022-04-03T12:45:12 EET" name="contenttype" finished-at="2022-04-03T12:45:12 EET" depends-on-methods="Crud.Post.checkbody" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttype -->
+        <test-method signature="checklincode()[pri:0, instance:Crud.Post@a3d8174]" started-at="2022-04-03T12:45:12 EET" name="checklincode" finished-at="2022-04-03T12:45:12 EET" depends-on-methods="Crud.Post.contenttype" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklincode -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Crud.Post@a3d8174]" started-at="2022-04-03T12:45:12 EET" name="after" finished-at="2022-04-03T12:45:12 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Crud.Post -->
+      <class name="Crud.Put">
+        <test-method is-config="true" signature="befreclass()[pri:0, instance:Crud.Put@732c2a62]" started-at="2022-04-03T12:45:13 EET" name="befreclass" finished-at="2022-04-03T12:45:13 EET" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befreclass -->
+        <test-method signature="checkstatuscode()[pri:1, instance:Crud.Put@732c2a62]" started-at="2022-04-03T12:45:13 EET" name="checkstatuscode" finished-at="2022-04-03T12:45:13 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="checkbody()[pri:2, instance:Crud.Put@732c2a62]" started-at="2022-04-03T12:45:13 EET" name="checkbody" finished-at="2022-04-03T12:45:13 EET" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbody -->
+        <test-method signature="contenttype()[pri:3, instance:Crud.Put@732c2a62]" started-at="2022-04-03T12:45:13 EET" name="contenttype" finished-at="2022-04-03T12:45:13 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttype -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Crud.Put@732c2a62]" started-at="2022-04-03T12:45:13 EET" name="after" finished-at="2022-04-03T12:45:13 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Crud.Put -->
+      <class name="Crud.GetDelay">
+        <test-method is-config="true" signature="befreclass()[pri:0, instance:Crud.GetDelay@1e6454ec]" started-at="2022-04-03T12:45:19 EET" name="befreclass" finished-at="2022-04-03T12:45:22 EET" duration-ms="3363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befreclass -->
+        <test-method signature="checkstatuscode()[pri:1, instance:Crud.GetDelay@1e6454ec]" started-at="2022-04-03T12:45:22 EET" name="checkstatuscode" finished-at="2022-04-03T12:45:22 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="checkbody()[pri:2, instance:Crud.GetDelay@1e6454ec]" started-at="2022-04-03T12:45:23 EET" name="checkbody" finished-at="2022-04-03T12:45:23 EET" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbody -->
+        <test-method signature="contenttype()[pri:3, instance:Crud.GetDelay@1e6454ec]" started-at="2022-04-03T12:45:23 EET" name="contenttype" finished-at="2022-04-03T12:45:23 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttype -->
+        <test-method signature="checklincode()[pri:4, instance:Crud.GetDelay@1e6454ec]" started-at="2022-04-03T12:45:23 EET" name="checklincode" finished-at="2022-04-03T12:45:23 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklincode -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Crud.GetDelay@1e6454ec]" started-at="2022-04-03T12:45:23 EET" name="after" finished-at="2022-04-03T12:45:23 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Crud.GetDelay -->
+      <class name="Crud.RegisterPost">
+        <test-method is-config="true" signature="befreclass()[pri:0, instance:Crud.RegisterPost@51dcb805]" started-at="2022-04-03T12:45:15 EET" name="befreclass" finished-at="2022-04-03T12:45:15 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befreclass -->
+        <test-method signature="post(java.lang.String,java.lang.String)[pri:0, instance:Crud.RegisterPost@51dcb805]" started-at="2022-04-03T12:45:15 EET" name="post" data-provider="data" finished-at="2022-04-03T12:45:16 EET" duration-ms="648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pistol]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String,java.lang.String)[pri:0, instance:Crud.RegisterPost@51dcb805]" started-at="2022-04-03T12:45:16 EET" name="post" data-provider="data" finished-at="2022-04-03T12:45:16 EET" duration-ms="355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pistol]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="post(java.lang.String,java.lang.String)[pri:0, instance:Crud.RegisterPost@51dcb805]" started-at="2022-04-03T12:45:16 EET" name="post" data-provider="data" finished-at="2022-04-03T12:45:16 EET" duration-ms="347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pistol]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="checkstatuscode()[pri:0, instance:Crud.RegisterPost@51dcb805]" started-at="2022-04-03T12:45:16 EET" name="checkstatuscode" finished-at="2022-04-03T12:45:16 EET" depends-on-methods="Crud.RegisterPost.post" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="checkbody()[pri:0, instance:Crud.RegisterPost@51dcb805]" started-at="2022-04-03T12:45:16 EET" name="checkbody" finished-at="2022-04-03T12:45:16 EET" depends-on-methods="Crud.RegisterPost.checkstatuscode" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbody -->
+        <test-method signature="contenttype()[pri:0, instance:Crud.RegisterPost@51dcb805]" started-at="2022-04-03T12:45:16 EET" name="contenttype" finished-at="2022-04-03T12:45:16 EET" depends-on-methods="Crud.RegisterPost.checkbody" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttype -->
+        <test-method signature="checklincode()[pri:0, instance:Crud.RegisterPost@51dcb805]" started-at="2022-04-03T12:45:16 EET" name="checklincode" finished-at="2022-04-03T12:45:16 EET" depends-on-methods="Crud.RegisterPost.contenttype" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklincode -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Crud.RegisterPost@51dcb805]" started-at="2022-04-03T12:45:16 EET" name="after" finished-at="2022-04-03T12:45:16 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Crud.RegisterPost -->
+      <class name="Crud.Delete">
+        <test-method is-config="true" signature="befreclass()[pri:0, instance:Crud.Delete@1ba9117e]" started-at="2022-04-03T12:45:12 EET" name="befreclass" finished-at="2022-04-03T12:45:13 EET" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befreclass -->
+        <test-method signature="checkstatuscode()[pri:1, instance:Crud.Delete@1ba9117e]" started-at="2022-04-03T12:45:13 EET" name="checkstatuscode" finished-at="2022-04-03T12:45:13 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Crud.Delete@1ba9117e]" started-at="2022-04-03T12:45:13 EET" name="after" finished-at="2022-04-03T12:45:13 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method signature="contenttype()[pri:2, instance:Crud.Delete@1ba9117e]" started-at="2022-04-03T12:45:13 EET" name="contenttype" finished-at="2022-04-03T12:45:13 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttype -->
+      </class> <!-- Crud.Delete -->
+      <class name="Crud.Listusers">
+        <test-method is-config="true" signature="befreclass()[pri:0, instance:Crud.Listusers@625732]" started-at="2022-04-03T12:45:15 EET" name="befreclass" finished-at="2022-04-03T12:45:15 EET" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befreclass -->
+        <test-method signature="checkstatuscode()[pri:1, instance:Crud.Listusers@625732]" started-at="2022-04-03T12:45:15 EET" name="checkstatuscode" finished-at="2022-04-03T12:45:15 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="checkbody()[pri:2, instance:Crud.Listusers@625732]" started-at="2022-04-03T12:45:15 EET" name="checkbody" finished-at="2022-04-03T12:45:15 EET" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbody -->
+        <test-method signature="contenttype()[pri:3, instance:Crud.Listusers@625732]" started-at="2022-04-03T12:45:15 EET" name="contenttype" finished-at="2022-04-03T12:45:15 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttype -->
+        <test-method signature="checklincode()[pri:4, instance:Crud.Listusers@625732]" started-at="2022-04-03T12:45:15 EET" name="checklincode" finished-at="2022-04-03T12:45:15 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklincode -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Crud.Listusers@625732]" started-at="2022-04-03T12:45:15 EET" name="after" finished-at="2022-04-03T12:45:15 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Crud.Listusers -->
+      <class name="Crud.Get">
+        <test-method is-config="true" signature="befreclass()[pri:0, instance:Crud.Get@5fd4f8f5]" started-at="2022-04-03T12:45:08 EET" name="befreclass" finished-at="2022-04-03T12:45:10 EET" duration-ms="2006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befreclass -->
+        <test-method signature="checkstatuscode()[pri:1, instance:Crud.Get@5fd4f8f5]" started-at="2022-04-03T12:45:10 EET" name="checkstatuscode" finished-at="2022-04-03T12:45:10 EET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="checkbody()[pri:2, instance:Crud.Get@5fd4f8f5]" started-at="2022-04-03T12:45:10 EET" name="checkbody" finished-at="2022-04-03T12:45:11 EET" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbody -->
+        <test-method signature="contenttype()[pri:3, instance:Crud.Get@5fd4f8f5]" started-at="2022-04-03T12:45:11 EET" name="contenttype" finished-at="2022-04-03T12:45:11 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttype -->
+        <test-method signature="checklincode()[pri:4, instance:Crud.Get@5fd4f8f5]" started-at="2022-04-03T12:45:11 EET" name="checklincode" finished-at="2022-04-03T12:45:11 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklincode -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Crud.Get@5fd4f8f5]" started-at="2022-04-03T12:45:11 EET" name="after" finished-at="2022-04-03T12:45:11 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Crud.Get -->
+      <class name="Crud.GetSingleUser">
+        <test-method is-config="true" signature="befreclass()[pri:0, instance:Crud.GetSingleUser@272ed83b]" started-at="2022-04-03T12:45:13 EET" name="befreclass" finished-at="2022-04-03T12:45:14 EET" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befreclass -->
+        <test-method signature="checkstatuscode()[pri:1, instance:Crud.GetSingleUser@272ed83b]" started-at="2022-04-03T12:45:14 EET" name="checkstatuscode" finished-at="2022-04-03T12:45:14 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="checkbody()[pri:2, instance:Crud.GetSingleUser@272ed83b]" started-at="2022-04-03T12:45:14 EET" name="checkbody" finished-at="2022-04-03T12:45:14 EET" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbody -->
+        <test-method signature="contenttype()[pri:3, instance:Crud.GetSingleUser@272ed83b]" started-at="2022-04-03T12:45:14 EET" name="contenttype" finished-at="2022-04-03T12:45:14 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttype -->
+        <test-method signature="checklincode()[pri:4, instance:Crud.GetSingleUser@272ed83b]" started-at="2022-04-03T12:45:14 EET" name="checklincode" finished-at="2022-04-03T12:45:14 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklincode -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Crud.GetSingleUser@272ed83b]" started-at="2022-04-03T12:45:14 EET" name="after" finished-at="2022-04-03T12:45:14 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Crud.GetSingleUser -->
+      <class name="Crud.SinglResourcesNotFound">
+        <test-method is-config="true" signature="befreclass()[pri:0, instance:Crud.SinglResourcesNotFound@2accdbb5]" started-at="2022-04-03T12:45:23 EET" name="befreclass" finished-at="2022-04-03T12:45:23 EET" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befreclass -->
+        <test-method signature="checkstatuscode()[pri:1, instance:Crud.SinglResourcesNotFound@2accdbb5]" started-at="2022-04-03T12:45:23 EET" name="checkstatuscode" finished-at="2022-04-03T12:45:23 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method signature="contenttype()[pri:2, instance:Crud.SinglResourcesNotFound@2accdbb5]" started-at="2022-04-03T12:45:23 EET" name="contenttype" finished-at="2022-04-03T12:45:23 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contenttype -->
+        <test-method signature="checklincode()[pri:3, instance:Crud.SinglResourcesNotFound@2accdbb5]" started-at="2022-04-03T12:45:23 EET" name="checklincode" finished-at="2022-04-03T12:45:23 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklincode -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Crud.SinglResourcesNotFound@2accdbb5]" started-at="2022-04-03T12:45:23 EET" name="after" finished-at="2022-04-03T12:45:23 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Crud.SinglResourcesNotFound -->
+    </test> <!-- test -->
+  </suite> <!-- api -->
+</testng-results>
